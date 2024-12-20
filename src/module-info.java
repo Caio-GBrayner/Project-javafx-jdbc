@@ -1,6 +1,7 @@
 module workshop_javafx_jdbc {
 	requires javafx.controls;
 	requires javafx.fxml;
+	requires transitive javafx.base;
 	
 	requires transitive java.sql;
 	
