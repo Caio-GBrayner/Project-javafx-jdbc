@@ -12,6 +12,7 @@ module workshop_javafx_jdbc {
 	exports model.entities;
 	exports model.dao;
 	exports model.dao.impl;
+	exports gui.listeners;
 
 	opens application to javafx.graphics, javafx.fxml;
 }
